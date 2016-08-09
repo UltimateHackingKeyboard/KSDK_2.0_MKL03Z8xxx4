@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['paritymode',['parityMode',['../group__lpuart__driver.html#ae7ce86796f025a059c973c540d5a94ad',1,'lpuart_config_t']]],
+  ['passivefilterenable',['passiveFilterEnable',['../group__port.html#abbdc229b5d5c1c377987324aa3ad9db2',1,'port_pin_config_t']]],
+  ['pccommand',['pcCommand',['../group__SHELL.html#a64e08b8add29093cea9df01c76f91622',1,'shell_command_context_t']]],
+  ['pchelpstring',['pcHelpString',['../group__SHELL.html#a2c834721ecac02c09b8b65400d0fd5f8',1,'shell_command_context_t']]],
+  ['pflashaccesssegmentcount',['PFlashAccessSegmentCount',['../group__flash__driver.html#acef43a75197233cb7dc2cd7bff8dc938',1,'flash_config_t']]],
+  ['pflashaccesssegmentsize',['PFlashAccessSegmentSize',['../group__flash__driver.html#a237cd61f95c8dd86d418f0853eece25d',1,'flash_config_t']]],
+  ['pflashblockbase',['PFlashBlockBase',['../group__flash__driver.html#a38d149791c84262f5526f278c250db6c',1,'flash_config_t']]],
+  ['pflashblockcount',['PFlashBlockCount',['../group__flash__driver.html#a6c8a625e8a513ea640bff4d72cbfb9bf',1,'flash_config_t']]],
+  ['pflashcallback',['PFlashCallback',['../group__flash__driver.html#a763d03e1c1230bf10a4c97a364b182b6',1,'flash_config_t']]],
+  ['pflashsectorsize',['PFlashSectorSize',['../group__flash__driver.html#ae9bec460d5fd4b27c7e4e7096036eebd',1,'flash_config_t']]],
+  ['pflashtotalsize',['PFlashTotalSize',['../group__flash__driver.html#a3d19cd0bb2c4f30c3a0e1a46400f9184',1,'flash_config_t']]],
+  ['pfunccallback',['pFuncCallBack',['../group__SHELL.html#acbbd9fd8065d61f1d5d5dce9131ddcec',1,'shell_command_context_t']]],
+  ['phase',['phase',['../group__spi__driver.html#a21b6f74dbeb89a81460cd618b7da042b',1,'spi_master_config_t::phase()'],['../group__spi__driver.html#ac6d76d6b354491d5b43756fdf8ef07d6',1,'spi_slave_config_t::phase()']]],
+  ['pindirection',['pinDirection',['../group__gpio.html#a70aed128003103272f5740f12fbff525',1,'gpio_pin_config_t']]],
+  ['pinindex',['pinIndex',['../group__llwu.html#a2c483f77d4acad5126df1087d85f351a',1,'llwu_external_pin_filter_mode_t']]],
+  ['pinmode',['pinMode',['../group__spi__driver.html#adae6cf2b677f553a394f8ec3282a5531',1,'spi_master_config_t']]],
+  ['pinpolarity',['pinPolarity',['../group__lptmr.html#a45bb2872fa671f6eecc3d863f8567b36',1,'lptmr_config_t']]],
+  ['pinselect',['pinSelect',['../group__lptmr.html#aa90bd0e225cefb56ad31b9c11776e5f3',1,'lptmr_config_t']]],
+  ['polarity',['polarity',['../group__spi__driver.html#ac8d9a8c7a526b96cbe3105d6e06b1cce',1,'spi_master_config_t::polarity()'],['../group__spi__driver.html#a32c240620581fcb133877d4fbda21226',1,'spi_slave_config_t::polarity()']]],
+  ['policy',['policy',['../group__notifier.html#a26aef2519eb2f9990e04f2ce961dfc9b',1,'notifier_notification_block_t']]],
+  ['prescale',['prescale',['../group__tpm.html#a96eafe68e41845fb308e826d98c18c4a',1,'tpm_config_t']]],
+  ['prescalerclocksource',['prescalerClockSource',['../group__lptmr.html#ad368f6d920909dd945deed545bb48ad5',1,'lptmr_config_t']]],
+  ['prompt',['prompt',['../group__SHELL.html#a070638fa9fd3393d534f18c69522b20a',1,'shell_context_struct']]],
+  ['pullselect',['pullSelect',['../group__port.html#a00e5708fc2787f8e08d3d0be47f1e820',1,'port_pin_config_t']]]
+];

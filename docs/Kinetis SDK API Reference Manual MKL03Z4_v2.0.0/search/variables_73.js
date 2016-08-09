@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['scr',['scr',['../group__CARD.html#ae47527a4d44dfb1754d97149e71d7744',1,'sd_card_t::scr()'],['../group__SDSPI.html#a246537655ae68ffd8472df9bf6255b27',1,'sdspi_card_t::scr()']]],
+  ['second',['second',['../group__rtc.html#a35ffc6bb746f813d06f2814c6d5d9d83',1,'rtc_datetime_t']]],
+  ['sectioncmdaddressaligment',['sectionCmdAddressAligment',['../group__flash__driver.html#ace5e7199a69c381ede28bd534efd2707',1,'flash_operation_config_t']]],
+  ['sectorcmdaddressaligment',['sectorCmdAddressAligment',['../group__flash__driver.html#a3b16324d8c454e26e3184f73b23d278d',1,'flash_operation_config_t']]],
+  ['sem',['sem',['../group__i2c__freertos__driver.html#a95c0fca4205eb457307275b2b500467e',1,'i2c_rtos_handle_t']]],
+  ['send_5fdata_5ffunc',['send_data_func',['../group__SHELL.html#a111b5474e4fc3435993a9fed2dce79d2',1,'shell_context_struct']]],
+  ['setfrequency',['setFrequency',['../group__SDSPI.html#ac69133eb56496fa30f5a1de66fd0d70f',1,'sdspi_host_t']]],
+  ['slaveaddress',['slaveAddress',['../group__i2c__driver.html#a05851e26565e2b89bd49ef230cc397be',1,'i2c_slave_config_t::slaveAddress()'],['../group__i2c__driver.html#a3b9c4ae818b1194955db51de0f67795f',1,'i2c_master_transfer_t::slaveAddress()']]],
+  ['slewrate',['slewRate',['../group__port.html#a2069e4226fcd402bae7cb3a18ca204c0',1,'port_pin_config_t']]],
+  ['stat',['stat',['../group__SHELL.html#a93d1ccc6fef4596885ebb6b74b06b02b',1,'shell_context_struct']]],
+  ['state',['state',['../group__i2c__driver.html#add7ec18bc8239c5c87ffcec2fbcf5dd8',1,'_i2c_master_handle::state()'],['../group__i2c__dma__driver.html#acb92e84abaa14c90df432c0a9e2584d4',1,'_i2c_master_dma_handle::state()'],['../group__i2c__edma__driver.html#a1881cce73748c6ec2865369ddfc7267a',1,'_i2c_master_edma_handle::state()'],['../group__spi__driver.html#ae7933252a37be998d127217f34f6fd16',1,'_spi_master_handle::state()'],['../group__spi__dma__driver.html#ae11863ad60c9260044f4d07475612497',1,'_spi_dma_handle::state()']]],
+  ['subaddress',['subaddress',['../group__i2c__driver.html#ae7facb612714785d4e143e57d47a5af3',1,'i2c_master_transfer_t']]],
+  ['subaddresssize',['subaddressSize',['../group__i2c__driver.html#a9c08797f65f0faac78f44ac038c45c38',1,'i2c_master_transfer_t']]],
+  ['supervisoraccess',['supervisorAccess',['../group__rtc.html#a4cdb560a5062b3869a0172e08c856b15',1,'rtc_config_t']]],
+  ['swapenableword',['swapEnableWord',['../group__flash__driver.html#af16943eff42ca625a095685327a8208c',1,'flash_swap_ifr_field_config_t']]],
+  ['swapindicatoraddress',['swapIndicatorAddress',['../group__flash__driver.html#ad2d35cf06849eb4a9d7623a44f31d18e',1,'flash_swap_ifr_field_config_t']]]
+];

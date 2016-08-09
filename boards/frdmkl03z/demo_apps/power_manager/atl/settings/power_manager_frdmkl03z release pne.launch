@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.atollic.hardwaredebug.launch.launchConfigurationType">
+  <stringAttribute key="com.atollic.hardwaredebug.jlink_common.cpu_core" value="Cortex-M"/>
+  <stringAttribute key="com.atollic.hardwaredebug.jlink_common.device" value="MKL03Z32xxx4"/>
+  <stringAttribute key="com.atollic.hardwaredebug.jlink_common.endian" value="little"/>
+  <stringAttribute key="com.atollic.hardwaredebug.jlink_common.init_speed" value="4000"/>
+  <stringAttribute key="com.atollic.hardwaredebug.jlink_common.jlink_script_path" value=""/>
+  <booleanAttribute key="com.atollic.hardwaredebug.jlink_common.jlink_script_used" value="false"/>
+  <stringAttribute key="com.atollic.hardwaredebug.jlink_common.jlink_trace_port_cfg_path" value="C:\Freescale\TrueSTUDIO for ARM Pro 5.1.1\ide\plugins\com.atollic.truestudio.tsp.freescale_1.0.0.201408201543\tsp\etm\MKxx.init"/>
+  <intAttribute key="com.atollic.hardwaredebug.jlink_common.jlink_tracebuffer_size" value="16"/>
+  <booleanAttribute key="com.atollic.hardwaredebug.jlink_common.scan_chain_auto" value="true"/>
+  <intAttribute key="com.atollic.hardwaredebug.jlink_common.scan_chain_irpre" value="0"/>
+  <intAttribute key="com.atollic.hardwaredebug.jlink_common.scan_chain_pos" value="0"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.analyzeCommands" value="# Default GDB command file for P&amp;E Micro supported probes&#13;&#10;&#13;&#10;# Load the program executable&#13;&#10;load&#13;&#10;"/>
+  <intAttribute key="com.atollic.hardwaredebug.launch.formatVersion" value="2"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.hwinitCommands" value="# Initialize your hardware here&#13;&#10;"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.ipAddress" value="localhost"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.jtagDevice" value="P&amp;E Micro"/>
+  <intAttribute key="com.atollic.hardwaredebug.launch.portNumber" value="7224"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.remoteCommand" value="target remote"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.runCommands" value="# Default GDB command file for P&amp;E Micro supported probes&#13;&#10;&#13;&#10;# Load the program executable&#13;&#10;load&#13;&#10;# Set a breakpoint at main().&#13;&#10;tbreak main&#13;&#10;&#13;&#10;# Run to the breakpoint.&#13;&#10;continue"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.serverParam" value="/crp  "/>
+  <booleanAttribute key="com.atollic.hardwaredebug.launch.startServer" value="true"/>
+  <booleanAttribute key="com.atollic.hardwaredebug.launch.swd_mode" value="false"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.swv_port" value="2332"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.swv_trace_div" value="8"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.swv_trace_hclk" value="8000000"/>
+  <intAttribute key="com.atollic.hardwaredebug.launch.trace_system" value="0"/>
+  <booleanAttribute key="com.atollic.hardwaredebug.launch.useRemoteTarget" value="true"/>
+  <stringAttribute key="com.atollic.hardwaredebug.launch.verifyCommands" value="# Default GDB command file for P&amp;E Micro supported probes&#13;&#10;&#13;&#10;# Load the program executable&#13;&#10;load&#13;&#10;"/>
+  <stringAttribute key="org.eclipse.cdt.debug.mi.core.DEBUG_NAME" value="${TOOLCHAIN_PATH}/arm-atollic-eabi-gdb"/>
+  <stringAttribute key="org.eclipse.cdt.debug.mi.core.commandFactory" value="Standard (Windows)"/>
+  <stringAttribute key="org.eclipse.cdt.debug.mi.core.protocol" value="mi"/>
+  <booleanAttribute key="org.eclipse.cdt.debug.mi.core.verboseMode" value="false"/>
+  <stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="${TOOLCHAIN_PATH}/arm-atollic-eabi-gdb"/>
+  <booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="false"/>
+  <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
+  <stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
+  <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="release/power_manager_frdmkl03z.elf"/>
+  <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="power_manager_frdmkl03z"/>
+  <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+  <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.atollic.truestudio.exe.debug.1332848918"/>
+  <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+    <listEntry value="/power_manager_frdmkl03z"/>
+  </listAttribute>
+  <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+    <listEntry value="4"/>
+  </listAttribute>
+  <stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
+  <stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
+</launchConfiguration>

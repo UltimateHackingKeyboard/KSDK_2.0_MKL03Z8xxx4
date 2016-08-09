@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['targetconfig',['targetConfig',['../group__notifier.html#a2e0b1d4d7e3ebf8f454b55af953e3ffa',1,'notifier_notification_block_t']]],
+  ['timeoutcycles',['timeoutCycles',['../group__cop.html#a2a1211496ebabab97cbe3f51f86fa507',1,'cop_config_t']]],
+  ['timermode',['timerMode',['../group__lptmr.html#ae10df9843af6a69d53830c97af9e9abb',1,'lptmr_config_t']]],
+  ['transfer',['transfer',['../group__i2c__driver.html#a6858d3525f762d7aded20e6c95eb19fc',1,'_i2c_master_handle::transfer()'],['../group__i2c__driver.html#a49f6e4eb57b2158f3886f47e6c84d1b9',1,'_i2c_slave_handle::transfer()'],['../group__i2c__dma__driver.html#a2a42954d3ed3c3138a2e0470d10d4485',1,'_i2c_master_dma_handle::transfer()'],['../group__i2c__edma__driver.html#a3766bc4cc29984a5df623edcbe1b9ca9',1,'_i2c_master_edma_handle::transfer()']]],
+  ['transferredcount',['transferredCount',['../group__i2c__driver.html#a0394563c8d0f9eeeecd242a65cee2ad4',1,'i2c_slave_transfer_t']]],
+  ['transfersize',['transferSize',['../group__i2c__driver.html#a5f6e3613a1fe8c3534a31526b1a34647',1,'_i2c_master_handle::transferSize()'],['../group__i2c__dma__driver.html#a2b7048fa97083cb5e44c75755d1331a6',1,'_i2c_master_dma_handle::transferSize()'],['../group__i2c__edma__driver.html#aebd195813157bfa7d42438f90c1055e0',1,'_i2c_master_edma_handle::transferSize()'],['../group__spi__driver.html#a415306f31fa29b548ee21a0f9aacc096',1,'_spi_master_handle::transferSize()'],['../group__spi__dma__driver.html#a15d678e91bfd1af80576ca0a6b107c74',1,'_spi_dma_handle::transferSize()']]],
+  ['triggerselect',['triggerSelect',['../group__tpm.html#a6546b49062c7bf42d02e01803cab91f3',1,'tpm_config_t']]],
+  ['txdata',['txData',['../group__lpuart__driver.html#a85dfd2cc5aa30f259ce7338a48c832a8',1,'_lpuart_handle::txData()'],['../group__spi__driver.html#addc4f20760a1a62c4d20cdf9443f3af3',1,'spi_transfer_t::txData()'],['../group__spi__driver.html#a6cb4626f6b63c70fa21fe2e3338dc915',1,'_spi_master_handle::txData()']]],
+  ['txdatasize',['txDataSize',['../group__lpuart__driver.html#a2114edec74578fe798a62cf852ab0194',1,'_lpuart_handle']]],
+  ['txdatasizeall',['txDataSizeAll',['../group__lpuart__driver.html#a84153c9f581e7201d5c2a20423a321da',1,'_lpuart_handle::txDataSizeAll()'],['../group__lpuart__dma__driver.html#a86d574327f76e9f6ca5ba59b69f2aaed',1,'_lpuart_dma_handle::txDataSizeAll()'],['../group__lpuart__edma__driver.html#a1d4461a68ee1f14850ac4d341afb8080',1,'_lpuart_edma_handle::txDataSizeAll()']]],
+  ['txdmahandle',['txDmaHandle',['../group__lpuart__dma__driver.html#aa6b9d2686f4812180ce77dfe6c2a6117',1,'_lpuart_dma_handle']]],
+  ['txedmahandle',['txEdmaHandle',['../group__lpuart__edma__driver.html#a1748fd406d158b129b40430218be3372',1,'_lpuart_edma_handle']]],
+  ['txhandle',['txHandle',['../group__spi__dma__driver.html#ac1c68e2b431fe999805c73a98e147a2f',1,'_spi_dma_handle']]],
+  ['txinprogress',['txInProgress',['../group__spi__dma__driver.html#a0579868b8e152a03bc87fa3e16b44f2a',1,'_spi_dma_handle']]],
+  ['txremainingbytes',['txRemainingBytes',['../group__spi__driver.html#a62fa101ddfc970e7b6bcba0b2eb6b869',1,'_spi_master_handle']]],
+  ['txstate',['txState',['../group__lpuart__driver.html#a86fe3c8f354afbe67d28a71068206b26',1,'_lpuart_handle::txState()'],['../group__lpuart__dma__driver.html#afa8891571f2db1e20c1d594f6cfd3972',1,'_lpuart_dma_handle::txState()'],['../group__lpuart__edma__driver.html#a17fd779099d5f3707693ac7c1212dc8a',1,'_lpuart_edma_handle::txState()']]]
+];
