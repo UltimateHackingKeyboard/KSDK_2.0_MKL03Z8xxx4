@@ -57,6 +57,7 @@ M_VECTOR_RAM_SIZE = DEFINED(__ram_vector_table__) ? 0x0100 : 0x0;
 MEMORY
 {
   m_interrupts          (RX)  : ORIGIN = 0x00000000, LENGTH = 0x00000100
+  m_bootloader_config   (RX)  : ORIGIN = 0x000003C0, LENGTH = 0x00000040
   m_flash_config        (RX)  : ORIGIN = 0x00000400, LENGTH = 0x00000010
   m_text                (RX)  : ORIGIN = 0x00000410, LENGTH = 0x00007BF0
   m_data                (RW)  : ORIGIN = 0x1FFFFE00, LENGTH = 0x00000800
@@ -73,6 +74,13 @@ SECTIONS
     KEEP(*(.isr_vector))     /* Startup code */
     . = ALIGN(4);
   } > m_interrupts
+
+  .bootloader_config :
+  {
+    . = ALIGN(4);
+    KEEP(*(.BootloaderConfig)) /* Bootloader Configuration Area (BCA) */
+    . = ALIGN(4);
+  } > m_bootloader_config
 
   .flash_config :
   {
@@ -252,4 +260,3 @@ SECTIONS
 
   ASSERT(__StackLimit >= __HeapLimit, "region m_data overflowed with stack and heap")
 }
-
