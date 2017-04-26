@@ -102,7 +102,7 @@ __isr_vector:
     .long 0xFFFFFFFF
     .long 0xFFFFFFFF
     .long 0xFFFFFFFF
-    .long 0xFFFF3DFE
+    .long 0xFFFFDBFE /* FTFA_FOPT is the byte before the last one */
 
     .text
     .thumb
