@@ -580,7 +580,7 @@ void I2C_MasterSetBaudRate(I2C_Type *base, uint32_t baudRate_Bps, uint32_t srcCl
 
     /* Search for the settings with the lowest error. Mult is the MULT field of the I2C_F register,
      * and ranges from 0-2. It selects the multiplier factor for the divider. */
-    for (mult = 0u; (mult <= 2u) && (bestError != 0); ++mult)
+    for (mult = 0u; (mult <= 0u) && (bestError != 0); ++mult)
     {
         multiplier = 1u << mult;
 
