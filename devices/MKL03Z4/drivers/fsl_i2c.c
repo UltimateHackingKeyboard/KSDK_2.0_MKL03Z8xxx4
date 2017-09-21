@@ -146,6 +146,9 @@ static i2c_isr_t s_i2cMasterIsr;
 /*! @brief Pointer to slave IRQ handler for each instance. */
 static i2c_isr_t s_i2cSlaveIsr;
 
+/* @brief Extern counter to ensure that I2C is always alive */
+volatile uint32_t I2C_Watchdog;
+
 /*******************************************************************************
  * Codes
  ******************************************************************************/
@@ -1386,6 +1389,7 @@ void I2C_SlaveTransferHandleIRQ(I2C_Type *base, void *i2cHandle)
 
     /* Add this to avoid build warning. */
     dummy++;
+    I2C_Watchdog++;
 
     status = I2C_SlaveGetStatusFlags(base);
     xfer = &(handle->transfer);
