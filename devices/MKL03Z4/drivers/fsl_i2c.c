@@ -1518,8 +1518,11 @@ void I2C_SlaveTransferHandleIRQ(I2C_Type *base, void *i2cHandle)
         }
         else
         {
+            /* Slave receive, master writing to slave. */
+            uint8_t data = *(uint8_t*)handle->userData = base->D;
+
             /* If we're out of data, invoke callback to get more. */
-            if ((!xfer->data) || (!xfer->dataSize))
+            if (true || (!xfer->data) || (!xfer->dataSize))
             {
                 xfer->event = kI2C_SlaveReceiveEvent;
 
@@ -1531,9 +1534,6 @@ void I2C_SlaveTransferHandleIRQ(I2C_Type *base, void *i2cHandle)
                 /* Clear the transferred count now that we have a new buffer. */
                 xfer->transferredCount = 0;
             }
-
-            /* Slave receive, master writing to slave. */
-            uint8_t data = base->D;
 
             if (handle->transfer.dataSize)
             {
